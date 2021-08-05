@@ -4,6 +4,7 @@ fazer consultas por nome de postagem, título ou tema, além de incluir postagen
 Foram abordados os seguintes assuntos:
 
 - Spring Boot
+- Spring Security
 - JPA
 - JSON
 - Maven
