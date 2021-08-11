@@ -6,6 +6,7 @@ Foram abordados os seguintes assuntos:
 - Spring Boot
 - Spring Security
 - JPA
+- TDD (testes unitários, integrados)
 - JSON
 - Maven
 - Hibernate
