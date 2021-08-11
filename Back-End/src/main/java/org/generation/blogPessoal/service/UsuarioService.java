@@ -21,7 +21,7 @@ public class UsuarioService {
 	@Autowired
 	private UsuarioRepository usuarioRepository;
 
-	public Optional<Usuario> cadastrarUsuario(Usuario usuario) {
+	public Usuario cadastrarUsuario(Usuario usuario) {
 		
 		
 		/**
@@ -51,7 +51,7 @@ public class UsuarioService {
 		String senhaEncoder = encoder.encode(usuario.getSenha());
 		usuario.setSenha(senhaEncoder);
 
-		return Optional.of(usuarioRepository.save(usuario));
+		return usuarioRepository.save(usuario);
 	
 	}
 
